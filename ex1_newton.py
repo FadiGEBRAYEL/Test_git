@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 R1=5
 R2=5
 R3=5
+#;kljhg
 #calcule de f(q)
 def fonction(q1, q2 ,q3):
     fct=([R1*math.cos(q1)+R2*math.cos(q1+q2)+R3*math.cos(q1+q2-q3)],
