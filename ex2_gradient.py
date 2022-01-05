@@ -12,6 +12,7 @@ R1=1
 R2=1
 R3=1
 #calcule de f(q)
+#comment
 def fonction(q1, q2 ,q3):
     fct=([R1*math.cos(q1)+R2*math.cos(q1+q2)+R3*math.cos(q1+q2+q3)],
          [R1*math.sin(q1)+R2*math.sin(q1+q2)+R3*math.sin(q1+q2+q3)],
